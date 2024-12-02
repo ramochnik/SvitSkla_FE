@@ -1,0 +1,648 @@
+/*fixes for legacy markup on firefox */
+.gform_legacy_markup_wrapper.gf_browser_gecko select {
+    background: transparent !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 39px;
+    border-radius: 2px;
+}
+
+/* remove radio select form 21768 Publications Mobile 1/2 */
+input#choice_21768_21_1,
+input#choice_21768_21_0 {
+    display: none;
+}
+
+/* remove radio select form 21769 Publications Mobile 2/2 */
+input#choice_21769_21_1,
+input#choice_21769_21_0 {
+    display: none;
+}
+
+/* NEW Custom Frame Pages 2022 
+/* 2022 NEW Remove radio select form 21742 poster form desktop, 21830 mobile */
+
+input#choice_21742_21_1,
+input#choice_21742_21_0 {
+    display: none;
+}
+
+input#choice_21830_21_1,
+input#choice_21830_21_0 {
+    display: none;
+}
+
+/* 2022 NEW remove radio select form 21745 jerseys desktop, 21831 mobile */
+input#choice_21745_21_1,
+input#choice_21745_21_0 {
+    display: none;
+}
+
+input#choice_21831_21_1,
+input#choice_21831_21_0 {
+    display: none;
+}
+
+/*2022 NEW remove radio select form 21750 original art desktop, 21832 mobile */
+input#choice_21750_21_1,
+input#choice_21750_21_0 {
+    display: none;
+}
+
+input#choice_21832_21_1,
+input#choice_21832_21_0 {
+    display: none;
+}
+
+/* 2022 NEW remove radio select form 21755 canvas desktop, 21833 mobile */
+input#choice_21755_21_1,
+input#choice_21755_21_0 {
+    display: none;
+}
+
+input#choice_21833_21_1,
+input#choice_21833_21_0 {
+    display: none;
+}
+
+/* 2022 NEW remove radio select form 21790 Objects desktop, 21834 mobile */
+input#choice_21790_21_1,
+input#choice_21790_21_0 {
+    display: none;
+}
+
+input#choice_21834_21_1,
+input#choice_21834_21_0 {
+    display: none;
+}
+
+/*NEW 2022 remove radio select form 21752 desktop military & 21835 mobile */
+input#choice_21752_21_1,
+input#choice_21752_21_0 {
+    display: none;
+}
+
+input#choice_21835_21_1,
+input#choice_21835_21_0 {
+    display: none;
+}
+
+/* 2022 NEW remove radio select form 21754 photographs desktop, 21836 mobile  */
+input#choice_21754_21_1,
+input#choice_21754_21_0 {
+    display: none;
+}
+
+input#choice_21836_21_1,
+input#choice_21836_21_0 {
+    display: none;
+}
+
+/*2022 NEW remove radio select form 21749 music desktop, 21837 mobile */
+input#choice_21749_21_1,
+input#choice_21749_21_0 {
+    display: none;
+}
+
+input#choice_21837_21_1,
+input#choice_21837_21_0 {
+    display: none;
+}
+
+/*2022 NEW remove radio select form 21746 sports memorabilia desktop, 21838 mobile*/
+
+input#choice_21746_21_1,
+input#choice_21746_21_0 {
+    display: none;
+}
+
+
+input#choice_21838_21_1,
+input#choice_21838_21_0 {
+    display: none;
+}
+
+/*2022 NEW remove radio select form 21844 documents and diplomas desktop, 21845 mobile */
+input#choice_21844_21_0,
+input#choice_21844_21_1 {
+    display: none;
+}
+
+input#choice_21845_21_0,
+input#choice_21845_21_1 {
+    display: none;
+}
+
+/* 2022 NEW remove radio select form 21751 Fabric & Needlework desktop, 21840 mobile */
+input#choice_21751_21_1,
+input#choice_21751_21_0 {
+    display: none;
+}
+
+input#choice_21840_21_1,
+input#choice_21840_21_0 {
+    display: none;
+}
+
+/* Other gravity form modifications */
+
+body .gform_wrapper img.ui-datepicker-trigger {
+    width: 37px !important;
+    height: 35px !important;
+    font-family: poppins;
+}
+
+.gform_wrapper label.gfield_label,
+.gform_wrapper legend.gfield_label {
+    font-weight: 400 !important;
+    font-size: inherit;
+    color: #4d4d4d;
+    font-size: 14.5px;
+    line-height: 20px;
+}
+
+.gform_wrapper h3.gform_title {
+    display: none;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+    margin-top: -3px;
+}
+
+.gform_footer input[type=submit] {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 1px solid #bf0000;
+    color: white !important;
+    width: auto !important;
+}
+
+.gform_footer input[type=submit]:hover {
+    border: 1px solid black;
+    color: #bf0000 !important;
+    background: white !Important;
+}
+
+body .gform_wrapper ul li.field_description_below div.ginput_container_checkbox,
+body .gform_wrapper ul li.field_description_below div.ginput_container_radio {
+    margin-top: 0 !important;
+    margin-bottom: 25px !important;
+}
+
+body .gform_wrapper ul li.gfield {
+    margin-top: 22px;
+    padding-top: 0;
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
+.gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    margin: 1px 0 0 1px;
+}
+
+span.uabb-button-text.uabb-creative-button-text {
+    font-size: 16px;
+}
+
+.gform_wrapper .gfield_radio li label {
+    text-align: left !important;
+}
+
+/*formatting mirror form*/
+input {
+    font-size: 14px !important;
+}
+
+ul#input_21794_30 li,
+ul#input_21756_30 li {
+    width: 100%;
+    font-size: .875em;
+}
+
+input#choice_21794_44_0,
+ul#input_21792_37 input,
+ul#input_21794_37 input,
+input#choice_21756_44_0,
+ul#input_21792_35 input {
+    display: none;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input,
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox] {
+    margin-top: 0px !important;
+}
+
+/*gravity form fixes 2021*/
+input#choice_21748_42_0,
+input#choice_21748_42_1,
+input#choice_21748_42_2 {
+    display: none;
+}
+
+/* multifile upload UI */
+@media all and (max-width:768px) {
+    button.gpfup__select-files {
+        margin-left: 18px;
+    }
+}
+
+button.gpfup__delete:hover {
+    background: transparent;
+}
+
+.gform_button_select_files:focus {
+    color: black !important;
+    border: 1px solid !important;
+}
+
+.gpfup-big-images .gpfup__files {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+    margin: 0 -0.5rem;
+}
+
+.gpfup-big-images .gpfup__file {
+    width: calc(50% - 1rem);
+    border: 0 !important;
+    padding: 0;
+    margin: 0 0.5rem 1rem !important;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.gpfup-big-images .gpfup__preview {
+    margin-right: 0;
+    display: grid;
+}
+
+.gpfup-big-images .gpfup__preview img {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: auto;
+    border-radius: 0;
+}
+
+.gpfup-big-images .gpfup__file-info {
+    position: absolute;
+    bottom: 0;
+    transition: opacity .3s ease-in-out;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    padding: 0.5rem;
+    color: #fff;
+    background: #000;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    margin: 0;
+}
+
+.gpfup-big-images .gpfup__filesize {
+    font-size: 0.8em;
+}
+
+.gpfup-big-images .gpfup__file-actions {
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.gpfup-big-images .gpfup__delete {
+    opacity: 0.7;
+    transition: opacity 0.25s ease-out;
+}
+
+.gpfup-big-images .gpfup__delete svg {
+    fill: white;
+    width: 1rem;
+    filter: drop-shadow(0 0 1px black);
+    transition: filter 0.25s ease-out;
+}
+
+.gpfup-big-images .gpfup__delete:hover {
+    opacity: 1;
+}
+
+.gpfup-big-images .gpfup__delete:hover svg {
+    filter: drop-shadow(0 0 4px black);
+}
+
+.gpfup-big-images .gpfup__droparea {
+    border-radius: 4px;
+}
+
+.gpfup-big-images .gpfup__edit {
+    width: 2.6rem;
+    height: 2.6rem;
+    line-height: 1;
+}
+
+/*replace campaign monitor email signup with gravity */
+input#input_21811_1 {
+    margin: 0 -16px 0 0;
+    height: 51px;
+    width: 300px !important;
+}
+
+.gform_wrapper form.gf_simple_horizontal {
+    width: calc(33vw - 16px) !important;
+    margin: 0 auto;
+}
+
+.gform_footer input[type=submit] {
+    border-radius: 1px !important;
+}
+
+@media all and (max-width:575px) {
+    .gform_wrapper form.gf_simple_horizontal {
+        width: calc(70vw - 16px) !important;
+    }
+}
+
+@media all and (max-width:767px) {
+    .gform_wrapper.gravity-theme .gfield.gfield--width-quarter {
+        -ms-grid-column-span: 2 !important;
+        grid-column: span 2 !important;
+    }
+
+    .gform_wrapper.gravity-theme .gfield.gfield--width-three-quarter {
+        -ms-grid-column-span: 10 !important;
+        grid-column: span 10 !important;
+    }
+}
+
+.ginput_complex .ginput_left,
+.gform_legacy_markup_wrapper .ginput_complex .ginput_right {
+    width: 49.4% !important;
+}
+
+span#input_21865_1_6_container {
+    padding-right: 0;
+}
+
+.gform_legacy_markup_wrapper.gf_browser_chrome span.address_country {
+    margin-top: 0;
+}
+
+select#input_21864_16_6 {
+    background: white;
+    border: 1px solid black !important;
+}
+
+.single-product .gform_wrapper.gravity-theme .ginput_complex input,
+.single-product .gform_wrapper.gravity-theme .ginput_complex select {
+    border: 1px solid #767676 !important;
+    width: 100%;
+    height: 45px;
+    background: white;
+}
+
+.ginput_product_price.gform-text-input-reset {
+    color: #4d4d4d !important;
+}
+
+.ginput_product_price.gform-text-input-reset {
+    color: #4d4d4d !important;
+}
+
+/*gravity forms*/
+/*multiform adjustments*/
+.gform_wrapper .gfield_radio li {
+    line-height: 1.6 !Important;
+}
+
+.gform_wrapper .gf_progressbar_percentage {
+    font-family: Poppins !important;
+}
+
+.gform_wrapper .gf_progressbar_wrapper h3.gf_progressbar_title {
+    font-family: poppins !important;
+}
+
+.gform_wrapper .percentbar_blue {
+    background-color: #cb0901;
+}
+
+.gform_wrapper .description,
+.gform_wrapper .gfield_description,
+.gform_wrapper .gsection_description,
+.gform_wrapper .instruction {
+    font-size: 14px !important;
+    padding: 10px 0 !important;
+    font-weight: 400 !important;
+}
+
+#gform_wrapper_21820 h3.gform_title,
+#gform_wrapper_21821 h3.gform_title,
+#gform_wrapper_21822 h3.gform_title,
+#gform_wrapper_21823 h3.gform_title {
+    display: block;
+}
+
+.gform_body h2 {
+    margin: 2em 0 0.75em !important;
+    padding: 0 !important;
+    font-size: 28px;
+}
+
+.gform_button_select_files {
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+.gform_legacy_markup_wrapper textarea.large {
+    height: 100px !important;
+}
+
+div#gform_wrapper_21854 {
+    text-align: left;
+    margin-top: 3em;
+}
+
+/*thank you signup*/
+input#gform_submit_button_21809,
+input#gform_submit_button_21808 {
+    padding: 6px 15px;
+    border-radius: 1px;
+    font-size: 16px;
+}
+
+#gform_wrapper_21812 .gform_wrapper input.large {
+    width: 100% !important;
+}
+
+/*appt and store pages*/
+#gfield_description_21808_2 {
+    display: none;
+}
+
+input#gform_submit_button_21808:hover {
+    border: 1px solid black;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+    margin-top: -3px !Important;
+}
+
+#gfield_description_21808_2 {
+    display: block;
+    padding: 0 0 20px !important;
+    margin-top: -10px;
+    font-size: .94em !Important;
+}
+}
+
+div#gform_wrapper_21809,
+li#field_21809_1 {
+    margin-top: 0;
+}
+
+
+@media (min-width: 576px) {
+    #gform_wrapper_21744 {
+        max-width: 540px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #gform_wrapper_21744 {
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #gform_wrapper_21744 {
+        max-width: 960px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #gform_wrapper_21744 {
+        max-width: 1140px !important;
+    }
+}
+
+.page-business-services .gform_legacy_markup_wrapper input.large {
+    width: 100% !important;
+}
+
+.gform_wrapper.gform_legacy_markup_wrapper.container {
+    padding-bottom: 4em;
+}
+
+.gform_legacy_markup_wrapper .gfield_checkbox li label,
+.gform_legacy_markup_wrapper .gfield_radio li label {
+    font-size: 15px !important;
+}
+
+input#gform_submit_button_21811 {
+    height: 51px;
+    margin-left: -2px;
+}
+
+.gform_footer input[type=submit] {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid #bf0000;
+    color: white !important;
+    width: auto !important;
+    padding: 10px 20px;
+}
+
+#modal-body .gform_footer input[type=submit] {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+input#gform_submit_button_21805 {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+input#input_21805_1 {
+    height: 50PX !important;
+    border: 1px solid #eaeaea !important;
+}
+
+input#input_21806_1 {
+    height: 50PX !important;
+    background: #fafafa;
+    color: gray;
+    border-top: 1px solid #eaeaea;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+}
+
+.gform_footer.top_label {
+    margin-top: 0 !important;
+}
+
+.modal #gform_wrapper_21854 {
+    padding: 0em 3em 1em;
+    margin-top: 0;
+}
+
+.modal p.gform_required_legend {
+    font-size: 12px !important;
+    margin: -10px 0 20px;
+    padding-top: 0 !important;
+}
+
+
+#hof-modal .panel .gform_legacy_markup_wrapper {
+    margin-bottom: -10px;
+}
+
+#hof-modal .panel .gform_legacy_markup_wrapper {
+    margin-bottom: -10px;
+}
+
+@media all and (max-width: 767px) {
+
+    .modal .ginput_complex.ginput_container.has_city.has_state.has_zip.ginput_container_address.gform-grid-row {
+        width: 100% !important;
+    }
+}
+
+/*appt confirmation page */
+.page-appointment-confirmation .gform_footer.top_label {
+    margin-top: 30px !Important;
+    padding-bottom: 0px !Important;
+    /*padding-bottom 12px on live*/
+}
+
+.page-appointment-confirmation .gform_footer.top_label {
+    margin-top: 30px !Important;
+    padding-bottom: 0px !Important;
+}
+
+#apptModal .gform_wrapper input.large,
+#apptModal .top_label div.ginput_complex.ginput_container.gf_name_has_2 {
+    width: 100% !Important;
+}
+
+.gform_wrapper.gravity-theme * {
+    text-align: left;
+}
+
+p.gform_required_legend {
+    padding-top: 25px;
+    font-size: 15px !important;
+}
+
+.gform_wrapper.gravity-theme .gform_drop_instructions {
+    text-align: center !important;
+    display: block;
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+}

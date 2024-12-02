@@ -1,0 +1,179 @@
+/* map block */
+
+#map-block .container-fluid {
+    padding: 0;
+}
+
+#map-block .store-hours p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#map-block table.wpsl-opening-hours td {
+    padding: 0 !important;
+}
+
+
+.map-responsive-new iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media all and (max-width: 1200px) {
+    #choose-stores a.btn.bg-red-button {
+        font-size: 12px !important;
+        padding: 10px 10px !important;
+    }
+}
+
+@media all and (min-width:768px) {
+    .col-12.padd-it {
+        padding: 25px;
+    }
+
+    .col-12.padd-it-2 {
+        padding: 25px 40px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .col-12.padd-it {
+        padding: 25px 20px;
+    }
+
+    .col-12.padd-it-2 {
+        padding: 50px 80px;
+    }
+
+    .padd-it .col-md-6.col-12:nth-of-type(2) {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    #map-block .address a {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+}
+
+.imageblock {
+    padding: 0!important;
+}
+.imageblock .imageblock__content {
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    padding: 0;
+}
+
+.covid-store-info {
+    font-size: 13px;
+}
+
+p.covid-store-info {
+    padding-bottom: 15px;
+}
+
+.calendly-inline-widget {
+    margin-bottom: 4em;
+}
+
+h3.icon-text-heading {
+    padding-bottom: 15px;
+}
+
+.covid-box {
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 0;
+    background-clip: border-box;
+    border-color: #e20000;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.covid-box h3.icon-text-heading {
+    margin: 0;
+}
+
+.padd-it i {
+    font-size: 19px;
+    margin-right: 5px;
+}
+
+.padd-it i.ti.ti-arrow-right {
+    font-size: 15px;
+}
+
+.couponz {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+    color: #cb0901;
+}
+@media all and (max-width:767px){
+ul.coupons li {
+    font-size: 13.5px; 
+}
+}
+/*map padding */
+.map-responsive-new {
+    overflow:hidden;
+    padding-bottom:10%;
+    position:relative;
+    height:0;
+}
+@media all and (min-width:992px){
+    .map-responsive-new {
+    overflow:hidden;
+    padding-bottom:170%;
+    }
+    #map-block table.wpsl-opening-hours {
+    font-size: 13px!important;
+}
+    
+}   
+@media all and (min-width: 1100px) {
+    .map-responsive-new {
+        overflow: hidden;
+        padding-bottom: 135%;
+    }
+}
+@media all and (min-width:1201px){
+    .covid-box {
+        margin-top: 35px;
+    }
+    .map-responsive-new {
+        padding-bottom: 92vh;
+    }
+}
+@media all and (min-width:1900px){
+    .map-responsive-new {
+        padding-bottom: 75%;
+    }
+}
+   
+@media all and (min-width: 2300px) {
+    .map-responsive-new {
+        padding-bottom: 57%;
+    }
+}
+.map-responsive-new iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

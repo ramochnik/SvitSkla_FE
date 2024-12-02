@@ -1,0 +1,129 @@
+/*publication testimonials*/
+#publication-testimonial .carousel.flickity-enabled.is-draggable {
+    padding: 20px;
+}
+
+#publication-testimonial p,
+#publication-testimonial span {
+    font-size: 15px !important;
+    line-height: 22px !important;
+}
+
+@media all and (max-width:575px) {
+    .col-sm-7.pl-5.pt-3 {
+        padding-left: 15px !important;
+    }
+}
+
+#publication-testimonial .carousel-cell {
+    width: 55%;
+    border: 1px solid #ccc;
+    padding: 20px 20px 15px;
+    background: white;
+
+}
+
+#publication-testimonial .carousel-cell.no-image {
+    padding: 50px !important;
+    width: 45%;
+}
+
+@media all and (max-width: 575px) {
+
+    #publication-testimonial .carousel-cell,
+    #publication-testimonial .carousel-cell.no-image {
+        padding: 15px !important;
+        width: 85% !important;
+    }
+
+    #publication-testimonial .carousel.flickity-enabled.is-draggable {
+        padding: 0;
+    }
+
+    #publication-testimonial .container-fluid {
+        padding: 0 !important;
+    }
+
+    .flickity-prev-next-button.previous {
+        left: -12.5px;
+    }
+
+    .flickity-prev-next-button.next {
+        right: -12.5px;
+    }
+}
+
+.carousel-split {
+    margin: 50px auto 0;
+}
+
+.carousel-split-cell {
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+}
+
+.carousel-split-cell-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-split-cell-inner-content {
+    padding: 0 30px;
+}
+
+.carousel-split-cell-inner-image img {
+    -o-object-fit: cover;
+    -o-object-position: center;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 350px;
+}
+
+.carousel-split-cell-inner div {
+    max-width: 65%;
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-split-cell-inner div {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .carousel-split-cell-inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .carousel-split-cell-inner-image {
+        order: 1;
+    }
+
+    .carousel-split-cell-inner-content {
+        order: 2;
+    }
+
+    .carousel-split-cell-inner-image img {
+        -o-object-fit: cover;
+        -o-object-position: center;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 300px;
+    }
+
+    .carousel-split-cell-inner-content {
+        padding: 25px 0px 10px;
+    }
+
+    .carousel-split-cell {
+        padding-bottom: 25px;
+    }
+}

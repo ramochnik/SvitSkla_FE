@@ -1,0 +1,96 @@
+.hover-box:hover {
+    -webkit-box-shadow: 0px 0px 20px 10px rgb(224 224 224 / 70%);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(224, 224, 224, 0.7);
+    -o-box-shadow: 0px 0px 20px 10px rgba(224, 224, 224, 0.7);
+    box-shadow: 0px 0px 20px 10px rgb(224 224 224 / 70%);
+    -webkit-transition: -webkit-box-shadow 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+    -moz-transition: -moz-box-shadow 200ms ease-in-out, -moz-transform 200ms ease-in-out;
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    will-change: box-shadow;
+}
+
+#textblock + #four-col-hover-block {
+    padding-top: 0 !important;
+}
+
+#four-col-hover-block .separator {
+    border-top: 1px solid #cb0901;
+    max-width: 100%;
+    margin: auto;
+}
+
+#four-col-hover-block .box-text {
+    height: 8vh;
+    margin-bottom: 15px;
+}
+
+#four-col-hover-block .feature {
+    padding-top: 25px;
+}
+
+#four-col-hover-block .feature a {
+    color: #4d4d4d;
+}
+
+#four-col-hover-block .feature img {
+    padding-bottom: 25px;
+}
+
+#four-col-hover-block .feature h4 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+@media all and (max-width:920px) {
+    #four-col-hover-block .feature {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 991px) {
+    #four-col-hover-block .hover-box {
+        padding: 15px 20px !important;
+    }
+
+    #four-col-hover-block .box-text {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    #four-col-hover-block .feature h4 {
+        font-size: 15px !Important;
+    }
+}
+
+@media all and (max-width:575px) {
+    .gray-btn-text p {
+        font-size: 15px;
+    }
+
+    #gray-hover-button-block .hover-box img {
+        height: 80px;
+    }
+
+    #four-col-hover-block .box-text {
+        height: 5vh;
+    }
+}
+
+#four-col-content-block h3 {
+    margin: 0.4em 0;
+}
+
+
+@media all and (max-width:575px) {
+    #four-col-content-block p {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+}
+
+.four-col-box-link {
+    margin-top: 20px;
+    font-size: 12px;
+}

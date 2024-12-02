@@ -1,0 +1,103 @@
+/* custom frame circle block */
+@media all and (min-width:576px) {
+    .text-white h2.circle-section.hide-on-mobile {
+        color: white;
+        font-size: 36px;
+        border-bottom: 1px solid #cb0901;
+        display: inline-block;
+        padding-bottom: 20px;
+        margin-bottom: 40px !important;
+    }
+}
+
+.text-white h2.circle-section.show-on-mobile {
+    color: white;
+}
+
+img.circle-pic {
+    border-radius: 50%;
+}
+
+h2.circle-section {
+    font-family: Gentium Book Basic, serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2.circle-section.hide-on-mobile {
+    color: #4d4d4d;
+}
+
+@media all and (max-width:575px) {
+    #circle-block .image-cropper img {
+        padding: 3vh 20vw;
+    }
+
+    h2.circle-section {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #circle-block .main-text {
+        margin-top: 25px;
+    }
+
+    #circle-block .main-text-after-button {
+        margin-top: 40px;
+    }
+}
+
+@media all and (min-width:1201px) {
+    .circle-text-block {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    #circle-block {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/*coupon links*/
+span.title-case {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+ul.coupons .intro {
+    font-size: 14px;
+}
+
+ul.coupons li {
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul.coupons {
+    margin-bottom: 20px;
+}
+
+span.title-case {
+    font-size: 14px;
+}
+
+@media all and (max-width:768px) {
+    #center-feature-block ul.coupons {
+        padding: 1rem !important;
+        padding-top: 0.5rem !important;
+    }
+
+    #center-feature-block ul.coupons li {
+        margin-bottom: 10px !important;
+        font-size: 13.5px;
+    }
+}
+#feature-half .selling-point p{
+    font-size: 14.5px;
+}

@@ -1,0 +1,95 @@
+/* pricing table */
+
+#pricing .card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+#pricing h4.card-header {
+    padding: 20px 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 22px !Important;
+}
+
+.bg-success-1 {
+    border-color: #ee6d40;
+    background: #ee6d40;
+}
+
+.bg-success-2 {
+    border-color: #59bbc2;
+    background: #59bbc2;
+}
+
+.bg-success-3 {
+    border-color: #3b424e;
+    background: #3b424e;
+}
+
+.bg--gray {
+    background: #F6F6F6;
+}
+
+h2.pricing-table {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+#pricing .card-body p {
+    margin: 0;
+}
+
+#pricing li.list-group-item {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#pricing li.list-group-item:nth-child(even) {
+    background: #fafafa;
+}
+
+#pricing .gform_wrapper textarea.medium {
+    height: 160px;
+    width: 100% !important;
+}
+
+#pricing .top_label div.ginput_complex.ginput_container.gf_name_has_1,
+.top_label div.ginput_complex.ginput_container.gf_name_has_2,
+.top_label div.ginput_complex.ginput_container.gf_name_has_3 {
+    width: 100% !important;
+}
+
+#pricing .gform_wrapper .ginput_complex.ginput_container {
+    overflow: visible;
+    width: 100% !Important;
+}
+
+#pricing .gform_legacy_markup_wrapper div.ginput_container_name span {
+    padding-right: 2px !important;
+}
+
+#pricing .gform_wrapper input.large,
+#pricing .gform_wrapper input.medium,
+#pricing .gform_wrapper input.small,
+#pricing .gform_wrapper select.large,
+#pricing .gform_wrapper select.medium,
+#pricing .gform_wrapper select.small {
+    width: 100%important;
+}
+
+#pricing .gform_legacy_markup_wrapper .top_label input.medium,
+#pricing .gform_legacy_markup_wrapper .top_label select.medium {
+    width: 100% !important;
+}
+
+.bg--gray input:not([type=submit]),
+.bg--gray .gform_wrapper textarea.medium {
+    background: white;
+}
+
+@media all and (max-width:575px) {
+    #pricing li.list-group-item {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,114 @@
+/* accordion block */
+#accordion-block .panel-body {
+    padding-top: 15px;
+    text-align: left;
+}
+
+#accordion-block .btn.bg-red-button,
+#accordion-block .btn.bg-red-button:hover {
+    padding: 7px 15px !important;
+    font-weight: 500 !important;
+}
+
+#accordion-block .question {
+    font-family: Gentium Book Basic, serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.pub-product-faq-block .question {
+    font-size: 19px !important;
+    line-height: 26px !important;
+    text-align: left;
+}
+
+#accordion-block .container.white-box {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 25%);
+}
+
+#accordion-block .panel.panel-default a {
+    color: #4d4d4d;
+}
+
+#accordion-block .panel.panel-default {
+    border-bottom: 1px solid #d9d9d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#accordion-block .panel-title > a:before {
+    float: right !important;
+    font-family: themify;
+    content: "\e622";
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.single-product #accordion-block .panel-title > a:before {
+    padding-right: 10px !important;
+}
+
+.single-product #accordion-block .question {
+    font-size: 19px !important;
+    line-height: 26px !important;
+}
+
+#accordion-block .panel-title > a.collapsed:before {
+    float: right !important;
+    content: "\e61a";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#accordion-block .panel-title > a:hover,
+#accordion-block .panel-title > a:active,
+#accordion-block .panel-title > a:focus {
+    text-decoration: none;
+}
+
+#accordion-block .panel-body p {
+    font-size: 15px !important;
+}
+
+#accordion-block .panel-body p:first-of-type {
+    font-size: 15px !important;
+    padding-top: 10px;
+}
+
+#accordion-block panel-body p:last-of-type {
+    font-size: 15px !important;
+    padding-bottom: 10px;
+}
+
+#accordion-block .no-box .panel.panel-default {
+    padding-left: 0;
+}
+
+#accordion-block .panel-body {
+    padding-top: 0;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.button-row {
+    padding: 2em 0 1em;
+}
+
+.button-row .btn {
+    margin-right: 20px;
+}
+
+h4.panel-title {
+    margin: 15px 0;
+}
+
+div#heading-5-block_60f8b11792e1a .question {
+    color: #cb0901;
+}
